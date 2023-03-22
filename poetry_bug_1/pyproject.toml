@@ -1,0 +1,7 @@
+[build-system]
+requires = ["wheel", "setuptools~=67.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "poetry_bug_1"
+requires-python = "^3.8"

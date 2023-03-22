@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "poetry-bug-2"
+version = "0.1.0"
+packages = [{include = "poetry_bug_2"}]
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.8"
+poetry_bug_1 = { path = "../poetry_bug_1" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
